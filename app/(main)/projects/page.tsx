@@ -151,9 +151,9 @@ function Projects() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="mb-3">
-                                    Check out the deployed application <a>here</a>
-                                </div>
+                                <p className="mb-3 self-start">
+                                    <a className="underline" href="https://notion-fullstack-clone.vercel.app/">Check out the deployed application here!</a>
+                                </p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
