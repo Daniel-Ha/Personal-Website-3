@@ -83,14 +83,14 @@ function Projects() {
                                         {" "}
                                         Moon Wallet
                                     </a>
-                                    , we also worked with Moon`&apos;`s developing codebase to build a UI for
+                                    , we also worked with Moon&apos;s developing codebase to build a UI for
                                     Moon Wallet in the form of a{" "}
                                     <span className="font-bold">DApp</span> (decentralized
                                     application) which was used to showcase our product and allow
-                                    users to pay for Doon`&apos;`s services using Ethereum.
+                                    users to pay for Doon&apos;s services using Ethereum.
                                 </p>
                                 <p className="mt-3">
-                                    In this project, I designed the chatbot`&apos;`s database and backend
+                                    In this project, I designed the chatbot &apos;s database and backend
                                     architecture, worked on the chatbot code, created the Moon
                                     Wallet UI for our website which involved communication with a
                                     professional working on the codebase, and was the Scrum master for our team.
@@ -144,7 +144,7 @@ function Projects() {
                                             <span className="font-bold">Convex</span> for the database,
                                         </li>
                                         <li>
-                                            <span className="font-bold">Edge Store</span> for handling users`&apos;` file uploads,
+                                            <span className="font-bold">Edge Store</span> for handling users&apos; file uploads,
                                         </li>
                                         <li>
                                             and <span className="font-bold">Clerk</span> for user authentication.
