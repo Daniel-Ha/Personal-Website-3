@@ -122,6 +122,7 @@ function Projects() {
                         <SwiperSlide>
                             <div className="overflow-y-scroll flex flex-col items-center h-full px-10 py-8 text-black">
                                 <h1 className="mb-4 font-bold text-lg">Full Stack Notion Clone</h1>
+                                <img alt="notion clone" src="/images/Dotion_pic.png" className="w-full pb-2"/>
                                 <p className="mb-3">
                                     A <span className="font-bold">full stack</span> application that recreates the functionality and styling of Notion.
                                 </p>
