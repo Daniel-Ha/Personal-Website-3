@@ -89,7 +89,7 @@ const Navbar: FC = () => {
                 Resume
               </Link>
             </li>
-            <li>
+            {/* <li>
               <button
                 id="dropdownNavbarLink"
                 data-dropdown-toggle="dropdownNavbar"
@@ -136,7 +136,7 @@ const Navbar: FC = () => {
                   </li>
                 </ul>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
