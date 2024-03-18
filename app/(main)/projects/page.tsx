@@ -41,8 +41,7 @@ function Projects() {
                         <SwiperSlide>
                         <div className="flex flex-col justify-center h-full px-10 py-8 text-black">
                             <h1 className="mb-4">
-                            I enjoy the process of creating things using code and the learning
-                            that comes from it!
+                            I enjoy the process of designing and creating things with code.
                             </h1>
                             <h1 className="mb-4">Here are some projects I have worked on:</h1>
                             <h1>Scroll for more -{">"}</h1>
@@ -52,6 +51,8 @@ function Projects() {
                             <div className="overflow-y-scroll flex flex-col items-center h-full px-10 py-8 text-black">
                                 <h1 className="mb-4 font-bold text-lg"> Doon Chatbot:</h1>
                                 <img alt="doon" src="/images/Doon_pic.png" className="w-full pb-2"/>
+                                <p className="mb-4">(built February 2024)</p>
+
                                 <p className="mb-3">
                                     Doon is a chatbot accessible through Telegram. It allows its users
                                     to set up sophisticated notifications which trigger based on
@@ -90,7 +91,7 @@ function Projects() {
                                     users to pay for Doon&apos;s services using Ethereum.
                                 </p>
                                 <p className="mt-3">
-                                    In this project, I designed the chatbot &apos;s database and backend
+                                    In this project, I designed the chatbot&apos;s database and backend
                                     architecture, worked on the chatbot code, created the Moon
                                     Wallet UI for our website which involved communication with a
                                     professional working on the codebase, and was the Scrum master for our team.
@@ -123,6 +124,8 @@ function Projects() {
                             <div className="overflow-y-scroll flex flex-col items-center h-full px-10 py-8 text-black">
                                 <h1 className="mb-4 font-bold text-lg">Full Stack Notion Clone</h1>
                                 <img alt="notion clone" src="/images/Dotion_pic.png" className="w-full pb-2"/>
+                                <p className="mb-4">(built April 2024)</p>
+
                                 <p className="mb-3">
                                     A <span className="font-bold">full stack</span> application that recreates the functionality and styling of Notion.
                                 </p>
@@ -158,8 +161,10 @@ function Projects() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className="text-black overflow-y-scroll flex flex-col h-full px-10 py-8">
+                            <div className="items-center text-black overflow-y-scroll flex flex-col h-full px-10 py-8">
                                 <h1 className="mb-4 font-bold text-lg">AcademIQ:</h1>
+                                <img alt="academiq" src="/images/AcademIQ_pic.png" className="w-full pb-2"/>
+                                <p className="mb-4">(built March 2023)</p>
                                 <p className="mb-3">
                                     AcademIQ is a Chrome extension that aims to aid the research
                                     process by finding and recommending the most relevant scholarly
@@ -173,7 +178,7 @@ function Projects() {
                                     It was an entry in HackDartmouth VIII and won 3rd place!
                                 </p>
                                 <a
-                                    className="underline"
+                                    className="underline self-start"
                                     target="_blank"
                                     href="https://devpost.com/software/academiq"
                                     rel="noopener noreferrer"
