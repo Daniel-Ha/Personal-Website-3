@@ -36,7 +36,7 @@ function Projects() {
                             prevEl: '.arrow-prev',
                         }}
                         modules={[EffectCoverflow, Pagination, Navigation]}
-                        className="swiper_container"
+                        className="swiper_container z-0"
                     >
                         <SwiperSlide>
                         <div className="flex flex-col justify-center h-full px-10 py-8 text-black">

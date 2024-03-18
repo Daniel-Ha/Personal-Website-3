@@ -6,12 +6,14 @@ import Toggler from "./Toggler";
 import { useState, useEffect, FC } from "react";
 import "@/custom-styling/Underline.css";
 import { usePathname } from "next/navigation";
-
+import { Disclosure } from "@headlessui/react";
 
 
 const Navbar: FC = () => {
   const [theme, setTheme] = useState<string>("dark"); // Specify type for state
   const pathname = usePathname();
+    const [isSmallScreen, setIsSmallScreen] = useState(false);
+
   
   const isCurrentPage = (href: string) => {
     // Adjust this logic based on how your URLs are structured
@@ -20,10 +22,24 @@ const Navbar: FC = () => {
     );
   };
 
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsSmallScreen(window.innerWidth < 768); // 640px is Tailwind's 'sm' breakpoint
+    };
+
+    checkScreenSize();
+    window.addEventListener("resize", checkScreenSize);
+
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <Disclosure
+      as="nav"
+      className={` z-10 bg-white dark:bg-gray-800 ${
+        isSmallScreen ? "sticky top-0" : ""
+      }`}
+    >      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="flex items-center space-x-3 rtl:space-x-reverse">
         <Link href="/">
             <h1 className="text-xl dark:text-white text-black font-normal">
@@ -140,7 +156,7 @@ const Navbar: FC = () => {
           </ul>
         </div>
       </div>
-    </nav>
+    </Disclosure>
   );
 }
 
