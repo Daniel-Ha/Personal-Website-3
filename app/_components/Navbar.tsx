@@ -98,6 +98,15 @@ const Navbar: FC = () => {
             </li>
             <li>
               <Link
+                href="/data_visualizations"
+                className={`block py-2 px-3 text-gray-900 rounded md:border-0 md:hover:custom-underline md:p-0 dark:text-white md:dark:hover:text-gray-700 md:hover:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ${
+                  isCurrentPage("/data_visualizations") ? "custom-underline" : ""
+                }`}              >
+                Data Visualizations
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/daniel_ha_resume.pdf"
                 className="block py-2 px-3 text-gray-900 rounded md:border-0 md:hover:custom-underline md:p-0 dark:text-white md:dark:hover:text-gray-700 md:hover:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >

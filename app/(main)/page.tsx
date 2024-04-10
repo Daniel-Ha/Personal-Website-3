@@ -25,7 +25,7 @@ const About = () => {
                     Though I have a variety of interests when it comes to computer science, I am most interested in data science and artifical intelligence.
                 </p>
                 <p className="text-black dark:text-white mb-5">
-                    In my freetime, I enjoy playing tennis, going to the gym, and playing Super Smash Bros Ultimate!
+                    In my freetime, I enjoy playing tennis, cooking, going to the gym, and playing Super Smash Bros Ultimate!
                 </p>
                 <p className="text-black dark:text-white mb-5">
                     Please feel free to explore my website for a more comprehensive look at my coding experience. I welcome opportunities to collaborate and contribute to computer science related projects!
