@@ -16,7 +16,7 @@ function Projects() {
 
     return (
             <div className="flex flex-col items-center space-y-5">
-                <h1 className="pt-10 pb-10 text-3xl text-black dark:text-white">Projects</h1>
+                <h1 className="pt-10 pb-10 text-3xl text-black dark:text-white">Personal Projects</h1>
                 <div className="container rounded-lg bg-gray-600">
                     <Swiper
                         effect={'coverflow'}
@@ -37,13 +37,14 @@ function Projects() {
                         }}
                         modules={[EffectCoverflow, Pagination, Navigation]}
                         className="swiper_container z-0"
+                        //don't show the vert
                     >
                         <SwiperSlide>
                         <div className="flex flex-col justify-center h-full px-10 py-8 text-black">
                             <h1 className="mb-4">
                             I enjoy the process of designing and creating things with code.
                             </h1>
-                            <h1 className="mb-4">Here are some projects I have worked on:</h1>
+                            <h1 className="mb-4">Here are some personal projects that I have worked on:</h1>
                             <h1>Scroll for more -{">"}</h1>
                         </div>
                         </SwiperSlide>
