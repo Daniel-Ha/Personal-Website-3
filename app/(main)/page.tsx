@@ -9,7 +9,7 @@ const About = () => {
                 <img 
                     src="/images/Pic_of_me.jpeg"
                     alt="a pic of me" 
-                    className="pb-10 pt-5 w-11/12 h-auto sm:w-3/5 md:w-1/2 lg:1/3 "
+                    className="pb-10 pt-5 w-11/12 h-auto sm:w-2/3 md:w-3/5 lg:w-2/5 "
                 />
             </div>
 
